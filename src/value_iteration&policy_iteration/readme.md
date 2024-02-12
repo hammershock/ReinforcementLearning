@@ -2,8 +2,8 @@
 
 这是最基本的、最应该先学习的强化学习算法，即使它只适用于一些非常简单的问题和情况
 
-提供了价值迭代和策略迭代以解决Jack的租车问题的演示示例，在`policy_iteration.py`和`value_iteration.py`。但是其运行时间很长，（可能算法优化还是没做好），使用了多进程并发计算。
-请结合自身CPU情况，酌情设置参与计算的进程数`num_processes`
+提供了价值迭代和策略迭代以解决Jack的租车问题的演示示例，在`policy_iteration.py`和`value_iteration.py`。但是其运行时间**很长**，（可能算法优化还是没做好），使用了多进程并发计算。
+⚠️请结合自身CPU情况，酌情设置参与计算的进程数`num_processes`
 
 ### 问题描述：**Jack's Car Rental Problem　(20 points)**
 
