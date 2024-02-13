@@ -38,5 +38,12 @@ Jack有两个租车点，1号租车点和2号租车点，每个租车点最多�
 | 计算复杂度   | 每次迭代计算量大            | 单次迭代相对简单，但总迭代次数可能更多             |
 | 适用场景    | 状态空间和动作空间较小，计算资源充足  | 状态空间较大，或策略评估计算成本高               |
 
+### 实验结果展示
+1. 最终获得的最优策略矩阵
+  <img src="./output/jack_car_rental_policy.png">
+2. 状态价值矩阵
+   <img src="./output/value_function_heatmap.png">
+3. 状态转移矩阵
+   <img src="./output/trans_matrix.png">
 
 
